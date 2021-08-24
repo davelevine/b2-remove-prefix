@@ -1,4 +1,9 @@
 # B2 Remove Prefix Worker
+
+// Created a Gist to fully write up the steps needed to make this work. It can be found [here](https://gist.github.com/davelevine/229d3fc8d9c75d99c35950e564dbb907). The only thing assumed is that a CDN has already been setup with Cloudflare and Backblaze. The official write up for this can be found [here](https://help.backblaze.com/hc/en-us/articles/217666928-Using-Backblaze-B2-with-the-Cloudflare-CDN). While not absolutely necessary, some familiarity with [Cloudflare Workers](https://workers.cloudflare.com/) is helpful.
+
+## Original README Begins Here
+
 A CloudFlare worker script that removes the `/file/{bucket-name}/` portion of
 the URL when access a B2 Bucket.
 
